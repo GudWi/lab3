@@ -1,0 +1,56 @@
+.wrapper {
+    padding-top: 15%;
+}
+
+fieldset.loginForm {
+    border: 1px solid black;
+}
+
+h1.head{
+    font-size: 1.7em;
+    padding: 0 0 2.5em 0.3em;
+}
+
+table.labelAndTextForm {
+    width: 100%;
+    margin-bottom: 2.5em;
+}
+table.labelAndTextForm td{
+    vertical-align: middle;
+}
+table.labelAndTextForm td.leftCol {
+    padding-left: 2.5em;
+    text-align: left;
+    width: 35%;
+}
+table.labelAndTextForm td.rightCol{
+    width: 65%;
+    padding-right: 1.5em;
+}
+
+table.button {
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+table.button td{
+    width: 25%;
+}
+
+table.button td.but{
+    width: 50%;
+}
+
+table.text {
+    vertical-align: middle;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 1em;
+}
+table.text td{
+    width: 15%;
+}
+table.text td.txt{
+    width: 70%;
+}
+

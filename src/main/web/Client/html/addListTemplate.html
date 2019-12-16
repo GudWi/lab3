@@ -1,0 +1,66 @@
+<div class="container-fluid ">
+    <div class="listWrapper">
+        <div class="row justify-content-start">
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+            <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12 ">
+                <fieldset class="form">
+                    <table class="addTable">
+                        <tr class="addRow">
+                            <td class="column0"></td>
+                            <td class="column1"><label id="addListTheme"></label></td>
+                            <td class="column2"><input class="myInput form-control" type="text" id="themeAdd"/></td>
+                            <td class="column3"><label id="addListPriority"></label></td>
+                            <td class="column4"><select class="mySelect form-control" id="priorityAdd">
+                                <option selected></option>
+                                <option>Высокий</option>
+                                <option>Средний</option>
+                                <option>Низкий</option>
+                            </select></td>
+                            <td class="column5">
+                                <label id="addListCategory"></label>
+                            </td>
+                            <td class="column6"><select class="mySelect form-control" id="category">
+                                <option selected></option>
+                                <option>Программирование</option>
+                                <option>Администрирование</option>
+                                <option>Обучение</option>
+                            </select></td>
+                            <td class="column7"></td>
+                        </tr>
+                        <tr class="addRow">
+                            <td class="column0"></td>
+                            <td class="column1"><label id="addListDescription"></label></td>
+                            <td class="column2">
+                                <textarea class="myDescription form-control" type="text" id="descriptionAdd" 
+                                rows="3" maxlength="256"></textarea>
+                            </td>
+                            <td class="column3"><label id="addListPlaneDate"></label></td>
+                            <td class="column4">
+                            <input id="plannedDateAdd" width="70%" type="datetime-local" class="myInput form-control"/>
+                            </td>
+                            <td class="column5">
+                                <label id="addListAuthor"></label>
+                            </td>
+                            <td class="column6">
+                                <input class="myInput form-control" type="text" id="authorAdd" placeholder="" readonly/>
+                            </td>
+                            <td class="column7"></td>
+                        </tr>
+                        <tr class="addRow">
+                            <td class="column0"></td>
+                            <td class="column1"><span class="warn" id="addListWarn"></span></td>
+                            <td class="column2"></td>
+                            <td class="column3"></td>
+                            <td class="column4"></td>
+                            <td class="column5"></td>
+                            <td class="column6"><input type="submit" class ="btn btn-secondary addListBtn"
+                                                       id="addListApply" /></td>
+                            <td class="column7"></td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </div>
+            <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+        </div>
+    </div>
+</div>

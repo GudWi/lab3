@@ -1,0 +1,116 @@
+<div class="container-fluid">
+  <div class="row viewRow1">
+    <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+    <div class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-xs-6 text-left">
+      <h1 class="viewHead" id="editHead"></h1>
+    </div>
+    <div class="col-xl-4 col-lg-3 col-md-1 col-sm-0 col-xs-0"></div>
+    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6 col-xs-6 text-right">
+      <input type="submit" class = "btn btn-secondary" id="editSave"/>
+    </div>
+    <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+  </div>
+  <div class="row viewRow2">
+    <div class="col-xl-2 col-lg-2 col-md-0 col-sm-0 col-xs-0"></div>
+    <div class="col-xl-1 col-lg-2 col-md-4 col-sm-6 col-xs-6">
+      <label class="fontView" id="editTodoTheme"></label>
+    </div>
+    <div class="col-xl-2 col-lg-3 col-md-4 col-sm-6 col-xs-6">
+      <input class="myInput form-control" type="text" id="editTheme"/>
+    </div>
+    <div class="col-xl-6 col-lg-5 col-md-3 col-sm-0 col-xs-0"></div>
+  </div>
+  <div class="row viewRow3">
+    <div class="col-xl-2 col-lg-2 col-md-0 col-sm-0 col-xs-0"></div>
+    <div class="col-xl-1 col-lg-2 col-md-4 col-sm-6 col-xs-6">
+      <label class="fontView" id="editTodoDescription"></label>
+    </div>
+    <div class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-xs-6">
+      <ul class="containerSpan">
+        <textarea class="editDescription form-control" type="text" id="editDescription" rows="3" maxlength="256"></textarea>
+      </ul>
+    </div>
+    <div class="col-xl-5 col-lg-4 col-md-2 col-sm-0 col-xs-0"></div>
+  </div>
+  <div class="row viewRow4">
+    <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+    <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 col-xs-3">
+      <label class="fontView" id="editTodoAuthor"></label>
+    </div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3">
+      <input class="myInput form-control" type="text" id="editAuthor" placeholder="" readonly/>
+    </div>
+    <div class="col-xl-3 col-lg-2 col-md-3 col-sm-1 col-xs-0"></div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3">
+      <label class="fontView" id="editTodoCreationDate"></label>
+    </div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3">
+    <input id="editCreationDate" width="70%" type="datetime-local" class="myInput form-control"/>
+    </div>
+    <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+  </div>
+  <div class="row viewRow5">
+    <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+    <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 col-xs-3">
+      <label class="fontView" id="editTodoPriority"></label>
+    </div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3">
+      <select class="mySelect form-control" id="editPriority">
+        <option selected></option>
+        <option>Высокий</option>
+        <option>Средний</option>
+        <option>Низкий</option>
+      </select>
+    </div>
+    <div class="col-xl-3 col-lg-2 col-md-3 col-sm-1 col-xs-0"></div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3">
+      <label class="fontView" id="editTodoPlaneDate"></label>
+    </div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3">
+    <input id="editPlaneDate" width="70%" type="datetime-local" class="myInput form-control"/>
+    </div>
+    <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+  </div>
+  <div class="row viewRow6">
+    <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+    <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 col-xs-3">
+      <label class="fontView" id="editTodoCategory"></label>
+    </div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3">
+      <select class="mySelect form-control" id="editCategory">
+        <option selected></option>
+        <option>Программирование</option>
+        <option>Администрирование</option>
+        <option>Обучение</option>
+      </select>
+    </div>
+    <div class="col-xl-3 col-lg-1 col-md-3 col-sm-1 col-xs-0"></div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3">
+      <label class="fontView" id="editTodoCompleteDate"></label>
+    </div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3">
+    <input id="editCompleteDate" width="70%" type="datetime-local" class="myInput form-control"/>
+    </div>
+    <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+  </div>
+  <div class="row viewRow7">
+    <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+    <div class="col-xl-1 col-lg-2 col-md-2 col-sm-2 col-xs-3">
+    </div>
+    <div class="col-xl-2 col-lg-2 col-md-2 col-sm-3 col-xs-3">
+      <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="editDone">
+        <label class="form-check-label" for="editDone" id="editTodoDone"></label>
+      </div>
+    </div>
+    <div class="col-xl-9 col-lg-8 col-md-8 col-sm-7 col-xs-6">
+    </div>
+  </div>
+  <div class="row viewRow8">
+    <div class="col-xl-8 col-lg-8 col-md-7 col-sm-6 col-xs-6"></div>
+    <div class="col-xl-3 col-lg-3 col-md-5 col-sm-6 col-xs-6 text-right">
+      <input type="submit" id="editCancel" class = "btn btn-secondary" value=""/>
+    </div>
+      <div class="col-xl-1 col-lg-1 col-md-0 col-sm-0 col-xs-0"></div>
+  </div>
+</div>

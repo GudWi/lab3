@@ -1,0 +1,60 @@
+.tableWrapper {
+    padding-top: 1%;
+}
+
+.sortBut {
+    background-color: white;
+}
+
+table.myTable{
+    table-layout: fixed;
+}
+
+table.myTable th{
+    width: 100%;
+    height: 2.5em;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+table.myTable th.col0{
+    width: 15%;
+}
+table.myTable th.col1{
+    width: 11%;
+}
+table.myTable th.col2{
+    width: 11%;
+}
+table.myTable th.col3{
+    width: 8%;
+}
+table.myTable th.col4{
+    width: 11%;
+}
+table.myTable th.col5{
+    width: 12%;
+}
+table.myTable th.col6{
+    width: 11%;
+}
+table.myTable th.col7{
+    width: 13%;
+}
+table.myTable th.col8{
+    width: 8%;
+}
+
+table.myTable td{
+    height: 2.5em;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+input.myCheckbox{
+    visibility: hidden;
+}
+
+button.viewButton{
+    visibility: hidden;
+}

@@ -1,0 +1,54 @@
+.listWrapper {
+}
+
+fieldset.form {
+    background-color: #FAFAFA;
+    border: 1px solid black;
+}
+
+table.filterTable {
+    width: 100%;
+    margin: 1em 0 1em 0;
+}
+
+table.filterTable td.column0{
+    width: 4.5%;
+}
+
+table.filterTable td.column1{
+    width: 10%;
+    padding: 0.5em 0 0.5em 0;
+}
+table.filterTable td.column2{
+    padding: 0.5em 0 0.5em 0;
+    width: 20%;
+}
+table.filterTable td.column3{
+    width: 11%;
+    padding: 0.5em 0 0.5em 0;
+}
+table.filterTable td.column4{
+    width: 20%;
+    padding: 0.5em 0 0.5em 0;
+}
+table.filterTable td.column5{
+    padding: 0.5em 0 0.5em 0;
+    width: 10%;
+}
+table.filterTable td.column6{
+    padding: 0.5em 0 0.5em 0;
+    width: 20%;
+    text-align: right;
+}
+
+table.filterTable td.column7{
+    width: 4.5%;
+}
+
+input.myInput {
+    width: 70%
+}
+
+select.mySelect {
+    width: 70%;
+}

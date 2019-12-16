@@ -1,0 +1,126 @@
+<div class="container-fluid ">
+    <div class="listWrapper">
+    <div class="row justify-content-start">
+        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+        <div class="col-xl-10 col-lg-10 col-md-10 col-sm-12 col-xs-12 ">
+            <fieldset class="form">
+                <table class="filterTable">
+                    <tr class="filterRow">
+                        <td class="column0"></td>
+                        <td class="column1"><label id="filterTheme"></label></td>
+                        <td class="column2"><input class="myInput form-control" type="text" id="theme"/></td>
+                        <td class="column3"><label id="filterPriority"></label></td>
+                        <td class="column4"><select class="mySelect form-control" id="priority">
+                            <option selected></option>
+                            <option>Высокий</option>
+                            <option>Средний</option>
+                            <option>Низкий</option>
+                        </select></td>
+                        <td class="column5">
+                            <div class="form-check">
+                                <input class="form-check-input" type="checkbox" value="" id="done">
+                                <label class="form-check-label" for="done" id="filterDone"></label>
+                            </div>
+                        </td>
+                        <td class="column6"></td>
+                        <td class="column7"></td>
+                    </tr>
+                    <tr class="filterRow">
+                        <td class="column0"></td>
+                        <td class="column1"><label id="filterCategory"></label></td>
+                        <td class="column2">
+                            <select class="mySelect form-control" id="category">
+                            <option selected></option>
+                            <option>Программирование</option>
+                            <option>Администрирование</option>
+                            <option>Обучение</option>
+                            </select>
+                        </td>
+                        <td class="column3"><label id="filterAuthor"></label></td>
+                        <td class="column4">
+                            <input class="myInput form-control" type="text" id="author"/>
+                        </td>
+                        <td class="column5">
+                            <label id="filterDoneWith"></label>
+                        </td>
+                        <td class="column6">
+                            <input id="doneWith" width="70%" />
+                            <script>
+                                $('#doneWith').datetimepicker({
+                                    uiLibrary: 'bootstrap4',
+                                    modal: false,
+                                    footer: true,
+                                    format: 'dd mm yyyy HH:MM:ss'
+                                });
+                            </script>
+                        </td>
+                        <td class="column7"></td>
+                    </tr>
+                    <tr class="filterRow">
+                        <td class="column0"></td>
+                        <td class="column1"><label id="filterPlanningWith"></label></td>
+                        <td class="column2"><input id="planningWith" width="70%" />
+                            <script>
+                                $('#planningWith').datetimepicker({
+                                    uiLibrary: 'bootstrap4',
+                                    modal: false,
+                                    footer: true,
+                                    format: 'dd mm yyyy HH:MM:ss'
+                                });
+                            </script></td>
+                        <td class="column3"><label id="filterCreatedWith"></label></td>
+                        <td class="column4"><input id="createdWith" width="70%" />
+                            <script>
+                                $('#createdWith').datetimepicker({
+                                    uiLibrary: 'bootstrap4',
+                                    modal: false,
+                                    footer: true,
+                                    format: 'dd mm yyyy HH:MM:ss'
+                                });
+                            </script></td>
+                        <td class="column5"><label id="filterDoneBy"></label></td>
+                        <td class="column6"><input id="doneBy" width="70%" />
+                            <script>
+                                $('#doneBy').datetimepicker({
+                                    uiLibrary: 'bootstrap4',
+                                    modal: false,
+                                    footer: true,
+                                    format: 'dd mm yyyy HH:MM:ss'
+                                });
+                            </script></td>
+                        <td class="column7"></td>
+                    </tr>
+                    <tr class="filterRow">
+                        <td class="column0"></td>
+                        <td class="column1"><label id="filterPlanningBy"></label></td>
+                        <td class="column2"><input id="planningBy" width="70%" />
+                            <script>
+                                $('#planningBy').datetimepicker({
+                                    uiLibrary: 'bootstrap4',
+                                    modal: false,
+                                    footer: true,
+                                    format: 'dd mm yyyy HH:MM:ss'
+                                });
+                            </script></td>
+                        <td class="column3"><label id="filterCreatedBy"></label></td>
+                        <td class="column4"><input id="createdBy" width="70%" />
+                            <script>
+                                $('#createdBy').datetimepicker({
+                                    uiLibrary: 'bootstrap4',
+                                    modal: false,
+                                    footer: true,
+                                    format: 'dd mm yyyy HH:MM:ss'
+                                });
+                            </script></td>
+                        <td class="column5"></td>
+                        <td class="column6"><input type="submit" class ="btn btn-secondary"
+                                                id="filterApply" value=""/></td>
+                        <td class="column7"></td>
+                    </tr>
+                </table>
+            </fieldset>
+        </div>
+        <div class="col-xl-1 col-lg-1 col-md-1 col-sm-0 col-xs-0"></div>
+    </div>
+    </div>
+</div>

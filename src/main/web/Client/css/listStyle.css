@@ -1,0 +1,13 @@
+button.myButton {
+    margin-left: 3%;
+}
+
+.headWrapper {
+    padding-top: 1%;
+    padding-bottom: 0.5%;
+}
+
+h1.listHead{
+    font-size: 1.7em;
+    padding: 0 0 0.5em 0;
+}

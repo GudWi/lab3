@@ -1,0 +1,64 @@
+table.addTable {
+    width: 100%;
+    margin: 1em 0 1em 0;
+}
+
+table.addTable td{
+    vertical-align: top;
+}
+
+table.addTable td.column0{
+    width: 4.5%;
+}
+
+table.addTable td.column1{
+    width: 10%;
+    padding: 0.5em 0 0.5em 0;
+}
+table.addTable td.column2{
+    padding: 0.5em 0 0.5em 0;
+    width: 20%;
+}
+table.addTable td.column3{
+    width: 11%;
+    padding: 0.5em 0 0.5em 0;
+}
+table.addTable td.column4{
+    width: 20%;
+    padding: 0.5em 0 0.5em 0;
+}
+table.addTable td.column5{
+    padding: 0.5em 0 0.5em 0;
+    width: 10%;
+}
+table.addTable td.column6{
+    padding: 0.5em 0 0.5em 0;
+    width: 20%;
+    text-align: right;
+}
+
+table.addTable td.column7{
+    width: 4.5%;
+}
+
+input.myInput {
+    width: 70%
+}
+
+select.mySelect {
+    width: 70%;
+}
+
+textarea.myDescription{
+    width: 70%;
+    resize: none;
+}
+
+button.addListBtn{
+
+}
+
+span.warn{
+    visibility: hidden;
+    color: red;
+}

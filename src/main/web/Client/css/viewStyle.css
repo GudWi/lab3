@@ -1,0 +1,51 @@
+h1.viewHead{
+    font-size: 1.7em;
+}
+
+.viewRow1{
+    padding-top: 2%;
+}
+
+.viewRow2{
+    padding-top: 3%;
+}
+
+.viewRow3{
+    padding-top: 1%;
+}
+
+.viewRow4{
+    padding-top: 1%;
+}
+
+.viewRow5{
+    padding-top: 1%;
+}
+
+.viewRow6{
+    padding-top: 1%;
+}
+
+.viewRow7{
+    padding-top: 1%;
+}
+
+input.viewButton{
+    margin-right: 4%;
+}
+
+.fontView {
+    font-size: 20px;
+}
+
+.containerSpan{
+    word-wrap: break-word;
+    width: 400px;
+    padding: 0;
+}
+
+
+textarea.editDescription{
+    width: 100%;
+    resize: none;
+}
